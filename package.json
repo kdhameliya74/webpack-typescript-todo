@@ -1,0 +1,33 @@
+{
+  "name": "webpack-typescript-todo",
+  "version": "1.0.0",
+  "description": "Todo app based on webpack and TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdhameliya74/webpack-typescript-todo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kdhameliya74/webpack-typescript-todo/issues"
+  },
+  "homepage": "https://github.com/kdhameliya74/webpack-typescript-todo#readme",
+  "devDependencies": {
+    "css-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "style-loader": "^3.2.1",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.4.2",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.0.0"
+  },
+  "dependencies": {
+    "jsx-dom": "^8.0.1-beta.1"
+  }
+}
